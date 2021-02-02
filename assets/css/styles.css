@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+body {
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.question-container {
+    background-color: #fff;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+    width: 1000px;
+    max-width: 100%;
+}
+
+h3 {
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+    font-weight: bold;
+    font-size:21px;
+}
+
+.question-header {
+    padding: 4rem;
+}
+
+.results-header {
+    padding: 4rem;
+}
+
+.results-header p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+ul li label {
+    cursor:pointer;
+}
+
+button {
+    background-color: #44ad85;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-family: inherit;
+    font-size: 1.1rem;
+    width: 100%;
+    padding: 1.3rem;
+}
+
+button:hover {
+    background-color: #2d926c;
+}
+
+button:focus {
+    outline: none;
+}
